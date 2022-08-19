@@ -1,0 +1,186 @@
+*{
+    /* margin: 0px;
+    padding: 0px; */
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    display: flex;
+}
+
+.button{
+    cursor: pointer;
+}
+
+/* start nav section */
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    color:white;
+    padding: 16px 28px;
+   
+}
+nav .logo {
+    font-weight: 700;
+    font-size: 24px;
+   
+    
+}
+nav ul {
+    display:flex;
+    list-style-type: none;
+    
+    gap:31px;
+}
+
+nav a {
+    text-decoration: none;
+    color:white;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+/* end nav section */
+
+.image {
+    background-image: url(./images/theater.png);
+    background-size: auto 100%;
+    height:720px;
+}
+.image h2 {
+    font-weight: 700;
+    font-size: 96px;
+    text-align: center;
+    padding-top: 310px;
+    color: white;
+}
+
+/*start mid box */
+
+
+.box-container {
+    margin: auto;
+    min-width: 1000px;
+  
+    margin-bottom: 20px;
+    margin-top: 20px;  
+}
+
+.box-item {
+    
+    
+    padding: 22px 26px;
+    background-color: black;
+}
+
+.box-item h3{
+    font-weight: 700;
+    font-size: 24px;
+    margin: auto;
+}
+/*end mid box */
+
+/*start body section */
+.rows-container {
+    display: flex;
+    flex-direction: column;
+    min-width: 500px;
+    margin-top: 30px;
+    
+}
+
+.row-1 {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    min-width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:10px;
+    
+    
+}
+
+.row-info {
+    text-align: left;
+    
+    margin-top:50px;
+    min-width: 300px;
+}
+h4 {
+    font-weight: 800;
+    font-size: 25px;
+}
+p {
+    font-size: 16px;
+}
+.btn {
+    background-color: rgb(224, 191, 28);
+    width:200px;
+    height:70px;
+    margin-top:100px;
+    margin-right: 30px;
+    font-size:20px;
+    color: white;
+    border-color: 1px soild #a07d00;
+}
+
+
+
+img {
+    margin-right: 50px;
+    height:300px;
+    width:250px;
+}
+
+.row-info {
+    margin-right: 50px;
+}
+
+/*end body section */
+
+/* start footer section */
+
+
+
+
+h3 {
+    color:white;
+    font-size: 36px;
+    text-align: center;
+}
+
+.footer-container {
+    /* margin: auto; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    
+}
+
+.footer-content {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    min-width: 2000px;
+    justify-content: center;
+
+}
+
+.footer-column p {
+    text-decoration: none;
+    color:white;
+    padding-left: 100px;
+    text-align: start;
+    font-size:18px;
+}
+/* end footer section */
